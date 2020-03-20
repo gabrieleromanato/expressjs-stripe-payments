@@ -1,7 +1,7 @@
 'use strict';
 
 const init = () => {
-    const stripe = Stripe('pk_test_5ddvf6oLIrZrC4HIiWGWn3MH00toO5R8cw');
+    const stripe = Stripe('');
     const elements = stripe.elements();
     const  style = {
         base: {
