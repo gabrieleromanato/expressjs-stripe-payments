@@ -1,7 +1,7 @@
 'use strict';
 
 const init = () => {
-    const stripe = Stripe('');
+    const stripe = Stripe('publishableKey');
     const elements = stripe.elements();
     const  style = {
         base: {
